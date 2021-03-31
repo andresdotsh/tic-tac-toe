@@ -6,8 +6,14 @@ export const GameScreen = styled.div`
 
 export const Title = styled.div`
   text-align: center;
-  font-size: 20px;
-  padding: 40px 0;
+  font-size: 34px;
+  padding: 20px 0;
+`
+
+export const Subtitle = styled.div`
+  text-align: center;
+  font-size: 24px;
+  padding: 20px 0;
 `
 
 export const ChooseSection = styled.div`
@@ -19,6 +25,7 @@ export const ChooseButton = styled.button`
   width: 100px;
   height: 100px;
   font-size: 60px;
+  cursor: pointer;
 `
 
 export const GameTable = styled.div`
@@ -35,4 +42,16 @@ export const GameButton = styled.button`
   width: 90%;
   height: 90%;
   font-size: 60px;
+  cursor: pointer;
+`
+
+export const ResetSection = styled.div`
+  padding-top: 20px;
+  text-align: center;
+`
+
+export const ResetButton = styled.button`
+  font-size: 16px;
+  padding: 2px 20px;
+  cursor: pointer;
 `

@@ -7,7 +7,7 @@ export const Container = styled.div`
 
 export const Welcome = styled.div`
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
   padding: 40px 0;
   width: 320px;
 `
@@ -17,6 +17,7 @@ export const StartSection = styled.div`
 `
 
 export const StartButton = styled.button`
-  font-size: 16px;
+  font-size: 20px;
   padding: 10px 20px;
+  cursor: pointer;
 `

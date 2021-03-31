@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Container>
-        <Welcome>{'Bienvenido a tic-tac-toe!'}</Welcome>
+        <Welcome>{'Bienvenid@ a tic-tac-toe!'}</Welcome>
       </Container>
 
       <Container>
